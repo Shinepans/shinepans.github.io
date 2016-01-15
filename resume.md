@@ -10,8 +10,8 @@ permalink: /resume/
     <div class='col-xs-8'>
         <div class='progress'>
             <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 50%'>
-                <span>PHP</span>
-                <span class='sr-only'>50% Complete (success)</span>
+                <span>Node.js</span>
+                <span class='sr-only'>75% Complete (success)</span>
             </div>
         </div>
     </div>
@@ -25,7 +25,7 @@ permalink: /resume/
     <div class='col-xs-8'>
         <div class='progress'>
             <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 50%'>
-                <span>Python</span>
+                <span>C++</span>
                 <span class='sr-only'>50% Complete (success)</span>
             </div>
         </div>
@@ -40,8 +40,8 @@ permalink: /resume/
     <div class='col-xs-8'>
         <div class='progress'>
             <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 35%'>
-                <span>JAVA</span>
-                <span class='sr-only'>35% Complete (success)</span>
+                <span>Web</span>
+                <span class='sr-only'>70% Complete (success)</span>
             </div>
         </div>
     </div>
@@ -56,7 +56,7 @@ permalink: /resume/
         <div class='progress'>
             <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 30%'>
                 <span>JavaScript</span>
-                <span class='sr-only'>30% Complete (success)</span>
+                <span class='sr-only'>60% Complete (success)</span>
             </div>
         </div>
     </div>
@@ -69,8 +69,8 @@ permalink: /resume/
     <div class='col-xs-8'>
         <div class='progress'>
             <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 30%'>
-                <span>C</span>
-                <span class='sr-only'>30% Complete (success)</span>
+                <span>Jquery</span>
+                <span class='sr-only'>60% Complete (success)</span>
             </div>
         </div>
     </div>
@@ -84,7 +84,7 @@ permalink: /resume/
         <div class='progress'>
             <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 30%'>
                 <span>C++</span>
-                <span class='sr-only'>30% Complete (success)</span>
+                <span class='sr-only'>65% Complete (success)</span>
             </div>
         </div>
     </div>
@@ -97,8 +97,8 @@ permalink: /resume/
     <div class='col-xs-8'>
         <div class='progress'>
             <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 10%'>
-                <span>......</span>
-                <span class='sr-only'>30% Complete (success)</span>
+                <span>Mongoose</span>
+                <span class='sr-only'>70% Complete (success)</span>
             </div>
         </div>
     </div>
