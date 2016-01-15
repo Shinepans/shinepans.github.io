@@ -16,7 +16,7 @@ permalink: /resume/
         </div>
     </div>
     <div class='col-sm-2'>
-        <em>PHP</em>
+        <em>Node.js</em>
     </div>
 </div>
 
@@ -31,7 +31,7 @@ permalink: /resume/
         </div>
     </div>
     <div class='col-sm-2'>
-        <em>Python</em>
+        <em>C++</em>
     </div>
 </div>
 
@@ -40,13 +40,13 @@ permalink: /resume/
     <div class='col-xs-8'>
         <div class='progress'>
             <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 35%'>
-                <span>Web</span>
+                <span>Web全栈</span>
                 <span class='sr-only'>70% Complete (success)</span>
             </div>
         </div>
     </div>
     <div class='col-sm-2'>
-        <em>JAVA</em>
+        <em>Web全栈</em>
     </div>
 </div>
 
@@ -75,7 +75,7 @@ permalink: /resume/
         </div>
     </div>
     <div class='col-sm-2'>
-        <em>C</em>
+        <em>Jquery</em>
     </div>
 </div>
 
@@ -103,19 +103,19 @@ permalink: /resume/
         </div>
     </div>
     <div class='col-sm-2'>
-        <em>......</em>
+        <em>Mongoose</em>
     </div>
 </div>
 
 <h2>标签：</h2>
 
 <p>
-    <button class='btn btn-default btn-sm'>php</button>
-    <button class='btn btn-default btn-sm'>python</button>
-    <button class='btn btn-default btn-xs'>java</button>
     <button class='btn btn-default btn-sm'>nodejs</button>
-    <button class='btn btn-default btn-xs'>c</button>
-    <button class='btn btn-default btn-xs'>c++</button>
+    <button class='btn btn-default btn-sm'>web</button>
+    <button class='btn btn-default btn-xs'>css</button>
+    <button class='btn btn-default btn-sm'>ajax</button>
+    <button class='btn btn-default btn-xs'>C++</button>
+    <button class='btn btn-default btn-xs'>jquery</button>
 </p>
 
 <p>
@@ -128,9 +128,9 @@ permalink: /resume/
 
 <p>
     <button class='btn btn-default btn-sm'>Redis</button>
-    <button class='btn btn-default btn-sm'>MySQL</button>
-    <button class='btn btn-default btn-xs'>SQLServer</button>
-    <button class='btn btn-default btn-xs'>Oracle</button>
+    <button class='btn btn-default btn-sm'>mongod</button>
+    <button class='btn btn-default btn-xs'>mongoose</button>
+    <button class='btn btn-default btn-xs'>orm</button>
 </p>
 
 <h2>项目：</h2>
