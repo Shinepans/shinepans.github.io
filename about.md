@@ -2,7 +2,7 @@
 layout: page
 title: 关于
 permalink: /about/
----
+--- 
 <div class="about">
 	<h2>基本信息</h2>
 	{% if site.user.email%}
