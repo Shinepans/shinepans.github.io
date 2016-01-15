@@ -1,0 +1,121 @@
+# Mongoose 优势
+- 非关系型
+- 用文档保存
+- 自动管理
+
+# Mongoose 命名属性
+  - 文本属性
+    
+```
+var PersonSchema;
+```
+- 数据库模型
+
+```
+var PersonModel;
+```
+- 实体
+
+```
+var PersonEntity;
+```
+
+# 使用
+- 项目只能够创建一个数据库
+
+```
+var mongoose = require('mongoose'); //引用mongoose模块
+var db = mongoose.createConection('localhost','test'); //创建数据库连接
+```
+
+# 监测异常
+
+```
+db.on('error',console.error.bind(console,'Error Connections'));
+db.once('open',function(){
+    //打开一次记录
+})
+```
+
+# 定义Schema
+
+```
+var PersonSchema = new mongoose.Schema({
+    name: String //定义属性name, 类型: string
+    password: String //define password, type: string
+    ... //其他属性
+})
+```
+
+# 发布Schema发布为Model
+
+```
+var PersonModel = db.model('Person');
+```
+
+# 用Model创建实例Entity
+
+```
+var personEntity = new PersonModel({name:'Krouky'});
+console.log(personEntity.name);//打印实体名字在控制台
+```
+
+# 为Schema创建方法
+
+```
+PersonSchema.methods.speak = funciton(){
+    console.log('Test info' + this.name);
+} //写一个名字叫speak的方法
+var PersonModel = db.model('Person',PersonSchema);
+var personEntity = new PersonModek({name: 'Test'});
+personEntity.speak();
+```
+
+# 执行查询
+- 依赖Nodel,Entity也可做到
+
+```
+PersonModel.find(function(err,person){
+    //查询所有的person
+})
+```
+
+# Schema
+数据属性模型
+
+# ObjectId
+- 主键
+
+```
+var mongoose = require('mongoose');
+var ObjectId = mongoose.Schema.Types.ObjectId;
+var StudentSchema = new Schema({});
+var TeachSchema = new Schema({id:ObjectId});
+```
+
+# 查找
+- 查找叫shine的所有的人
+
+```
+PersonSchema.statics.findByName = function(name,cb){
+    this.find({name:new RegExp(name,'i'),cb});
+}
+var PersonModel = mongose.modal('Person',PersonSchema);
+PersonModel.findByName('shine',function(err,persons){
+    
+})
+```
+
+# 查询
+- 直接查询
+
+```
+PersonModel.findOne({
+    'name.last':'shine',}
+    'some select',function(err,person)
+    {       }
+    )
+```
+
+- 链式查询
+
