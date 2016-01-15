@@ -1,18 +1,37 @@
 ---
-Title: 关于
-layout: post
-tagline: Supporting tagline
+layout: page
+title: 关于
+permalink: /about/
 ---
+<div class="about">
+	<h2>基本信息</h2>
+	{% if site.user.email%}
+	<p>
+		<em>email</em> : <a href="mailto:{{ site.user.email }}">i@searchp.cc</a>
+	</p>
+	{% endif %}
+	{% if site.user.weibo%}
+	<p>
+		<em>weibo</em> : <a href="{{ site.user.weibo }}">weibo.com/{{ site.username }}</a>
+	</p>
+	{% endif %}
+	{% if site.user.twitter%}
+	<p>
+		<em>twitter</em> : <a href="{{ site.user.twitter }}">twitter.com/{{ site.username }}</a>
+	</p>
+	{% endif %}
+	{% if site.user.github %}
+	<p>
+		<em>github</em> : <a href="{{ site.user.github}} ">github.com/{{ site.username }}</a>
+	</p>
+	{% endif %}
 
-{% include JB/setup %}
-	
-七弦，码农一枚，就职于腾讯。曾参与QQ PC客户端开发，现在的方向为后台开发与数据分析。
-
-自认伪文艺，喜欢摄影、摇滚、历史，向往草原与大海。
-
-你可以在下面这些网站找到我:
-
-- [豆瓣](http://www.douban.com/people/joshualeung/)
-- [500px](http://500px.com/joshualeung)
-- [Github](http://joshualeung.github.com)
+	{% if site.user.desc %}
+		<h2>个人简介</h2>
+		<p>
+			{{ site.user.desc }}
+		</p>
+	{% endif %}
+	{% include extends/disqus.html %}
+</div>
 

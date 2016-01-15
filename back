@@ -1,0 +1,8 @@
+{% else %}
+{% if post.shortinfo %}
+<p>{{ post.shortinfo }}</p>
+{% elsif post.description %}
+<p>{{ post.description }}</p>
+{% else %}
+<p>{{ post.excerpt }}</p>
+{% endif %}
