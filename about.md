@@ -7,7 +7,7 @@ permalink: /about/
 	<h2>基本信息</h2>
 	{% if site.user.email%}
 	<p>
-		<em>email</em> : <a href="mailto:{{ site.user.email }}">i@searchp.cc</a>
+		<em>email</em> : <a href="mailto:{{ site.user.email }}">shinepans@live.com</a>
 	</p>
 	{% endif %}
 	{% if site.user.weibo%}
