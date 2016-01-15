@@ -1,4 +1,11 @@
-.sass-cache
-assets
-node_modules
-_bower_components
+_site/*
+_theme_packages/*
+
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+.swp
