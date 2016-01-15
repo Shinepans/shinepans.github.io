@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 个人简历
+title: 个人技术栈
 permalink: /resume/
 ---
 
