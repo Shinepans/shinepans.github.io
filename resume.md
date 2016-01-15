@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 
 <div class="read">
-<h2>语言：</h2>
+<h2>技术栈：</h2>
 <div class='row'>
     <div class='col-xs-8'>
         <div class='progress'>
@@ -133,7 +133,7 @@ permalink: /resume/
     <button class='btn btn-default btn-xs'>orm</button>
 </p>
 
-<h2>项目：</h2>
+<h2>友情链接：</h2>
 <p>
 	<a href="http://class.qq.com">class.qq.com</a> <span>（YII，Redis，MySQL）</span>
 </p>
