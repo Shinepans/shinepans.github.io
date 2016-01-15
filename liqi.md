@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 利器
+title: 这是转载的一个非常牛的人的博客 :）
 permalink: /liqi/
 ---
 
