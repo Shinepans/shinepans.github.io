@@ -1,3 +1,8 @@
+---
+layout: post
+title: nodejs笔记1
+categories: nodejs
+---
 ### First thing   (1-4-2016) 
 - blog nodejs
     - login

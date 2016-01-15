@@ -1,3 +1,8 @@
+---
+layout: post
+title: nodejs笔记2
+categories: nodejs
+---
 ### 文件结构
 - app.js : 入口文件
 - package.json : 工程信息以及模块依赖

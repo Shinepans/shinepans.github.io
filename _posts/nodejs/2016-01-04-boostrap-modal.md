@@ -1,3 +1,9 @@
+---
+layout: post
+title: 一个bootstrap的modal
+categories: nodejs
+---
+
 ## Hide before click some title
 
 - use jade

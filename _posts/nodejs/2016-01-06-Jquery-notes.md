@@ -1,3 +1,9 @@
+---
+layout: post
+title: Jquery小笔记
+categories: nodejs
+---
+
 # 选择器
 - $(this)
     - 当前html元素
