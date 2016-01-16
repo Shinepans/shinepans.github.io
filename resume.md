@@ -138,7 +138,7 @@ permalink: /resume/
 	<a href="http://blog.csdn.net/shinepan">My csdn blog</a> <span>（Nodejs，Web，.net）</span>
 </p>
 <p>
-	<a href="http://bestfiveenglish.com">My Qzone</a> <span>（Daily，Pictures，Others）</span>
+	<a href="http://user.qzone.qq.com/574273250">My Qzone</a> <span>（Daily，Pictures，Others）</span>
 </p>
 <p>
     <a href="http://www.imooc.com">爱慕课</a> <span>（Anything you want to study）</span>
