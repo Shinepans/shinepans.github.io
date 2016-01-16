@@ -28,7 +28,8 @@ categories: nodejs
 1.npm install webpack
 2.npm install webpack-dev-server
 ```
- 如图: img1,2
+ 如图: 
+ ![img1](http://img.blog.csdn.net/20160116201442457)
  这使得我们可以直接通过终端命令使用webpack, 我们将使用webpack配置代码, 使用webpack-dev-server 来运行项目.
 - 创建一个workflow 项目
  - 选择一个空文件夹命名为工作项目名
@@ -55,7 +56,8 @@ document.write("Webpack test by shinepans");
 ```
 webpack ./entry.js bundle.js
 ``` 
- - 如图结果: img3
+ - 如图结果: 
+ ![img2](http://img.blog.csdn.net/20160116201532147)
  - 用浏览器打开发现会输出js文件
 - 再添加一个文件
  - 取名为 content.js, 内容为:
@@ -95,7 +97,7 @@ body{
 require("!style!css./style.css");
 ```
  - 接下来我们看看效果:
- img6
+![img4](http://img.blog.csdn.net/20160116201743572)
  
  - 其实可以用这种办法来写, 免去了繁杂的语句:
  
