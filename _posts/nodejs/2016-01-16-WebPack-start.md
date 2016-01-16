@@ -24,10 +24,10 @@ categories: nodejs
 - 首先需要做的就是同时安装 webpack, webpack-dev-server ,使用npm来安装,:
  - npm使用:
  
- ```
- 1.npm install webpack
- 2.npm install webpack-dev-server
- ```
+```
+1.npm install webpack
+2.npm install webpack-dev-server
+```
  如图: img1,2
  这使得我们可以直接通过终端命令使用webpack, 我们将使用webpack配置代码, 使用webpack-dev-server 来运行项目.
 - 创建一个workflow 项目
@@ -35,21 +35,21 @@ categories: nodejs
  - 在这个文件夹下创建一个entry.js的文件
  - 文件内容为: 
  
- ```
- document.write("Webpack test by shinepans");
- ```
+```
+document.write("Webpack test by shinepans");
+```
  - 再创建一个 index.html文件,内容为:
  
- ```
- <html>
-    <head>
-        <meta charset = "utd-8">
-    </head>
-    <body>
-        <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
-    </body>
+```
+<html>
+<head>
+    <meta charset = "utd-8">
+</head>
+<body>
+    <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+</body>
 </html>
- ```
+```
  - 在根目录下执行:
 
 ```
@@ -59,92 +59,92 @@ webpack ./entry.js bundle.js
  - 用浏览器打开发现会输出js文件
 - 再添加一个文件
  - 取名为 content.js, 内容为:
- ```
- module.exports = "It works from content.js !";
- ```
+```
+module.exports = "It works from content.js !";
+```
  - 更新刚才添加的 entry.js 添加一行:
  
- ```
- document.write(require("./content.js"));
- ```
+```
+document.write(require("./content.js"));
+```
  - 再执行命令:
  
- ```
- webpack ./entry.js bundle.js
- ```
+```
+webpack ./entry.js bundle.js
+```
  - 刷新浏览器, 文字变化
  
  # 第一个LOADER
  - 当我们给应用添加css文件, webpack原生仅支持js, 所以我们需要css-loader 和style-loader 来应用样式
   - 终端运行:(注意是局部安装, 会安装到node_modules里)
   
-  ```
-  npm install css-loader style-loader
-  ```
+```
+npm install css-loader style-loader
+```
  - 接下来,我们再添加一个文件: 
   - style.css
   
-  ```
-  body{
-      backgroud: yellow;
-  }
-  ```
+```
+body{
+    backgroud: yellow;
+}
+```
  - 然后更新 entry.js 加一行:
  
- ```
- require("!style!css./style.css");
- ```
+```
+require("!style!css./style.css");
+```
  - 接下来我们看看效果:
  img6
  
  - 其实可以用这种办法来写, 免去了繁杂的语句:
  
- ```
- require("./style.css");
- ```
+```
+require("./style.css");
+```
  - 然后在 终端输入:
  
- ```
- webpack ./entry.js bundle.js --module-bind "css=style!css"
- ```
+```
+webpack ./entry.js bundle.js --module-bind "css=style!css"
+```
  - 这效果将会是一样的
 
 - 配置文件 webpack.config.js
  - 添加 webpack.config.js文件
- ```
- module.exports = {
-     entry: "./entry.js"
-     output: {
-         path: __dirname,
-         filename: "bundle.js"
-     },
-     module:{
-         loaders:{
-             {test:/\.css$/, loader: "style!css"}
-         }
-     }
- }
- ```
+```
+module.exports = {
+    entry: "./entry.js"
+    output: {
+        path: __dirname,
+        filename: "bundle.js"
+    },
+    module:{
+        loaders:{
+            {test:/\.css$/, loader: "style!css"}
+        }
+    }
+}
+```
  - 设置好后, 直接使用 webpack 
 - 更友好的输出
  - 随着项目的增长, 编译过程可能会越来越长, 所以我们可以展示进度条和增加配色实现友好输出:
  
- ```
- webpack --progress --colors
- ```
+```
+webpack --progress --colors
+```
  
 - 监听模式
  - 当我们不希望文件改动后手动执行编辑操作时使用:
  
- ```
+```
 webpack --progress --colors --watch
- ```
+```
 - 开发服务器
  - 提供开发服务器是一项好的服务, 可以替换 python -m SimpleHTTPSerer启用HTTP静态服务器:
  
- ```
- webpack install webpack-dev-server -g
- ```
+```
+webpack install webpack-dev-server -g
+```
 - 启动服务器
  - 终端:
 
