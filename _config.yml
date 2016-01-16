@@ -31,8 +31,8 @@ user:
 
 # 这里替换成线上的静态资源的链接。 主要最后的"/"。也要注意css使用的字体的链接。
 pub:
-  css: http://7xjddt.com1.z0.glb.clouddn.com/css/
-  js: http://7xjddx.com1.z0.glb.clouddn.com/js/
+  css: http://7xq5e5.com1.z0.glb.clouddn.com/css/
+  js: http://7xq5e5.com1.z0.glb.clouddn.com/js/
   image: http://7xq5e5.com1.z0.glb.clouddn.com/pub/
 
 # 这里是本地的静态资源存放的路径
