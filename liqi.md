@@ -28,28 +28,15 @@ permalink: /liqi/
 
 为什么中国的墙这么狠? 最近越来越多的国外程序员聚集的网站被墙了, 百度也有很多不收录, 所以用谷歌吧~ 被墙了? 土行孙的干活~ (这里没有打广告哦 = =)
 
-* 2015-11-09 很晚了，第一版就更新到这里吧。后面持续更新。
+* 2016-01-16 更新, 下次再见~ 
 
 {% include extends/disqus.html %}
 
-[PhpStorm]:https://www.jetbrains.com/phpstorm/
 [Sublime Text]:http://www.sublimetext.com/
 [WebStorm]:https://www.jetbrains.com/webstorm/
-[IntelliJ IDEA]:https://www.jetbrains.com/idea/
-[Dash]:https://kapeli.com/dash
-[Gask Mask]:https://github.com/2ndalpha/gasmask
-[iTerm2]:https://www.iterm2.com/
-[Sequel Pro]:http://www.sequelpro.com/
 [MySQL Workbench]:https://www.mysql.com/products/workbench/
 [chrome]:https://www.google.com/chrome/
-[Evernote]:https://www.yinxiang.com/
-[office]:https://products.office.com/zh-cn/mac/microsoft-office-for-mac
-[Alfred]:https://www.alfredapp.com/
-[AppCleaner]:http://www.freemacsoft.net/appcleaner/
-[Spectacle]:https://www.spectacleapp.com/
-[Best Trace]:https://itunes.apple.com/cn/app/best-trace/id1026747589?mt=8
-[SmartFinder]:http://www.smartisan.com/apps/smartfinder
-[iThoughtsX]:https://itunes.apple.com/cn/app/ithoughtsx/id720669838?mt=12&ign-mpt=uo%3D4
+
 
 
 
