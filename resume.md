@@ -9,9 +9,9 @@ permalink: /resume/
 <div class='row'>
     <div class='col-xs-8'>
         <div class='progress'>
-            <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 80%'>
+            <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 73%'>
                 <span>Node.js</span>
-                <span class='sr-only'>80% Complete (success)</span>
+                <span class='sr-only'>73% Complete (success)</span>
             </div>
         </div>
     </div>
@@ -39,14 +39,14 @@ permalink: /resume/
 <div class='row'>
     <div class='col-xs-8'>
         <div class='progress'>
-            <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 75%'>
-                <span>Web全栈</span>
-                <span class='sr-only'>75% Complete (success)</span>
+            <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 60%'>
+                <span>Web前端</span>
+                <span class='sr-only'>60% Complete (success)</span>
             </div>
         </div>
     </div>
     <div class='col-sm-2'>
-        <em>Web全栈</em>
+        <em>Web前端</em>
     </div>
 </div>
 
@@ -68,9 +68,9 @@ permalink: /resume/
 <div class='row'>
     <div class='col-xs-8'>
         <div class='progress'>
-            <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 74%'>
+            <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 73%'>
                 <span>Jquery</span>
-                <span class='sr-only'>80% Complete (success)</span>
+                <span class='sr-only'>73% Complete (success)</span>
             </div>
         </div>
     </div>
@@ -82,9 +82,9 @@ permalink: /resume/
 <div class='row'>
     <div class='col-xs-8'>
         <div class='progress'>
-            <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 84%'>
+            <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 68%'>
                 <span>CSS</span>
-                <span class='sr-only'>80% Complete (success)</span>
+                <span class='sr-only'>68% Complete (success)</span>
             </div>
         </div>
     </div>
@@ -96,9 +96,9 @@ permalink: /resume/
 <div class='row'>
     <div class='col-xs-8'>
         <div class='progress'>
-            <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 85%'>
+            <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 75%'>
                 <span>Mongoose</span>
-                <span class='sr-only'>85% Complete (success)</span>
+                <span class='sr-only'>75% Complete (success)</span>
             </div>
         </div>
     </div>
@@ -135,11 +135,13 @@ permalink: /resume/
 
 <h2>友情链接：</h2>
 <p>
-	<a href="http://class.qq.com">class.qq.com</a> <span>（YII，Redis，MySQL）</span>
+	<a href="http://blog.csdn.net/shinepan">My csdn blog</a> <span>（Nodejs，Web，.net）</span>
 </p>
 <p>
-	<a href="http://bestfiveenglish.com">bestfiveenglish.com</a> <span>（HTML，CSS，JavaScript）</span>
+	<a href="http://bestfiveenglish.com">My Qzone</a> <span>（Daily，Pictures，Others）</span>
 </p>
-
+<p>
+    <a href="http://www.imooc.com">爱慕课</a> <span>（Anything you want to study）</span>
+</p>
 {% include extends/disqus.html %}
 </div>
