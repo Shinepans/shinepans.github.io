@@ -26,8 +26,8 @@ user:
   github: http://github.com/shinepans
   weibo: http://weibo.com/shinespy
   twitter: http://twitter.com
-  weixin: '574273250'
-  desc: web全栈开发，有轻度的强迫症，有轻度的代码洁癖，喜欢编程并且享受编程。
+  weixin: 574273250
+  desc: web全栈开发，有轻度的强迫症，酷爱编程。
 
 # 这里替换成线上的静态资源的链接。 主要最后的"/"。也要注意css使用的字体的链接。
 pub:
