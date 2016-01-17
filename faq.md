@@ -6,9 +6,9 @@ permalink: /faq/
 
 F&Q原本写作FAQ ，是Frequently Asked Questions的首字母构成的缩略词。
 
-**(1) 问:如何获取域名IP? **
+**(1) 问:如何获取域名IP?**
 
-**答：**  terminal win:
+**答:**  terminal win:
 
 ```shell
 nslookup xxx
@@ -19,7 +19,7 @@ mac
 dig xxx
 ```
 
-**(2) 问:如何破解sublime? **
+**(2) 问:如何破解sublime?**
 
 **答：**  输入 license :
 
@@ -51,9 +51,9 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 ------ END LICENSE ------
 ```
 
-**(3) 问:下次何时更新? **
+**(3) 问:下次何时更新?**
 
-**答：**  不要着急! 马上回来!
+**答:**  不要着急! 马上回来!
 
 
 
