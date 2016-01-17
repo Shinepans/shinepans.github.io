@@ -29,7 +29,12 @@ categories: others
 项目问题分析
 ------
 1.关于验证码:
-	通过研究发现,输入教务网的地址http://jw1.hustwenhua.net/后会返回一个地址:http://jw1.hustwenhua.net/(syufyjbvpsbm2055i4odbmrh)/default2.aspx,有没有发现中间多了一串动态码?这个码是随机的,第一步是需要获得这个验证码,怎么做到呢?我是通过先用webbrowser访问默认地址,这时候访问后就会返回一个带有动态码的地址,只需要调用获取webbrowser的地址方法,就可以获取到这个地址,下一步就是截取这个动态码了:
+	通过研究发现,输入教务网的地址
+    
+```
+http://jw1.hustwenhua.net/后会返回一个地址<br />:http://jw1.hustwenhua.net/(syufyjbvpsbm2055i4odbmrh)/default2.aspx,
+```
+有没有发现中间多了一串动态码?这个码是随机的,第一步是需要获得这个验证码,怎么做到呢?我是通过先用webbrowser访问默认地址,这时候访问后就会返回一个带有动态码的地址,只需要调用获取webbrowser的地址方法,就可以获取到这个地址,下一步就是截取这个动态码了:
 	
 
 ```
