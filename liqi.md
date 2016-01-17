@@ -12,11 +12,11 @@ permalink: /liqi/
 
 * [Sublime Text] 最好的文本编辑器之一.
 * [WebStorm] 前端编程的利器. 当然, Sublime Text 也算一个.
-* [Visual Stdio Code] 这里当然不是指VS啦, 这个软件很小, 写markdown很舒服. 
+* Visual Stdio Code 这里当然不是指VS啦, 这个软件很小, 写markdown很舒服. 
 * [MySQL Workbench] 官方出品，开源免费。用来数据库设计和建模非常Nice。
-* [Git] 版本管理什么的最爽了!
-* [RoboMongo] 可视化管理mongodb 的利器!
-* [Chromome] 个人认为最强大的浏览器，并且越来越强大。控制台和大量的插件使得它越来越牛。
+* Git 版本管理什么的最爽了!
+* RoboMongo 可视化管理mongodb 的利器!
+* Chrome 个人认为最强大的浏览器，并且越来越强大。控制台和大量的插件使得它越来越牛。
 ...
 
 ### 非专业 ###
@@ -35,7 +35,6 @@ permalink: /liqi/
 [Sublime Text]:http://www.sublimetext.com/
 [WebStorm]:https://www.jetbrains.com/webstorm/
 [MySQL Workbench]:https://www.mysql.com/products/workbench/
-[chrome]:https://www.google.com/chrome/
 
 
 
