@@ -30,16 +30,22 @@ categories: notes
 - 效果:
 
 # This is H1
+h1
 
 ## This is H2
+h2
 
 ### This is H3
+h3
 
 #### This is H4
+h4
 
 ##### This is H5
+h5
 
 ###### This is H6
+h6
 
 # 图片
 
@@ -56,7 +62,7 @@ categories: notes
 ```
 - 效果:(是不是很方便呢?)
 
-##Mou
+## Mou
 
 ![Mou icon](http://25.io/mou/Mou_128.png)
 
