@@ -5,12 +5,14 @@ categories: notes
 ---
 
 ### 来让我们回味一下如何使用Markdown~
+
 - 为什么要回味: 因为用markdown写文章更加逼格! 移植性棒棒的!
 - 好处: 加快了写文章的速度! 如果你想转移文章, 易如反掌! 因为这是主流!
 - 文章日期: 2016-1-17 (寒冷!)
 - by: shinepans , panshang (这个是为了做好seo = =) 
 
 ### 拿什么开始?
+
 - 用什么写markdown? 我听同事说Mou很不错,但是在mac上才有,这里我就推荐Visual studio code, 在mac和windows下都支持!其余的有好的日后再推荐...推荐一个网站:简书, 都是用markdown写的文章~
 
 ### 如何书写? 那么开始吧!
@@ -18,22 +20,29 @@ categories: notes
 # 标题
 
 ```
-#This is H1
-##This is H2
+# This is H1
+## This is H2
 ### This is H3
 #### This is H4
 ##### This is H5
 ###### This is H6
 ```
 - 效果:
-#This is H1
-##This is H2
+
+# This is H1
+
+## This is H2
+
 ### This is H3
+
 #### This is H4
+
 ##### This is H5
+
 ###### This is H6
 
 # 图片
+
 - 语法:
 
 ```
@@ -46,7 +55,9 @@ categories: notes
 ![Mou icon](http://25.io/mou/Mou_128.png)
 ```
 - 效果:(是不是很方便呢?)
+
 ##Mou
+
 ![Mou icon](http://25.io/mou/Mou_128.png)
 
 # 强调
@@ -70,6 +81,7 @@ categories: notes
 - 特别强调效果: ***panshang***
 
 # 代码片
+
 - 代码片表示:
 
 ```
@@ -80,12 +92,15 @@ categories: notes
 ```
 I am code write by panshang
 ```
+
 # 引用
+
 - 用法:
 
 ```
 > I am Panshang, Welcome to see this blog! <br />希望您下次还来!
 ```
+
 - 效果:(是不是很棒呢?)
 
 > I am Panshang, Welcome to see this blog! <br />
@@ -101,13 +116,19 @@ I am code write by panshang
 >>>>> 不来了~...
 ```
 - 效果:
+
 > 这是一级
+
 >> 这是二级
+
 >>> 这是三级
+
 >>>> 这是四级
+
 >>>>> 不来了~...
 
 # 链接
+
 - 写法:
 
 ```
@@ -115,9 +136,11 @@ I am code write by panshang
 [去我的主页](http://panshang.xyz)
 ```
 - 效果: 
+
 [去我的主页](http://panshang.xyz)  (点了要回来哟~)
 
 # 分割线
+
 - 写法:(3种)~
 
 ```
@@ -134,10 +157,12 @@ I am code write by panshang
 2. shinepans
 3. 潘尚
 ```
+
 - 效果:(这里不需要输入换行符)
 1. panshang
 2. shinepans
 3. 潘尚
+
 - 无序
 
 ```
@@ -145,10 +170,12 @@ I am code write by panshang
 * 132
 * 213
 ```
+
 - 效果
 * 123
 * 132
 * 213
+
 - 另一种写法:(我在用的 : ) )
 
 ```
@@ -162,4 +189,5 @@ I am code write by panshang
 - 测试~
 
 # 尾声
+
 如果还有实用的标记我会补上的~~~ 今天告此段落了, 要休息了, 我们下次再见~ (2016-1-17 In a cold day!)
