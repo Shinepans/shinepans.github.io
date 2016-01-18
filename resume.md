@@ -16,7 +16,7 @@ permalink: /resume/
         </div>
     </div>
     <div class='col-sm-2'>
-        <em>Node.js</em>
+        <em>掌握</em>
     </div>
 </div>
 
@@ -31,7 +31,7 @@ permalink: /resume/
         </div>
     </div>
     <div class='col-sm-2'>
-        <em>C++</em>
+        <em>掌握</em>
     </div>
 </div>
 
@@ -46,7 +46,7 @@ permalink: /resume/
         </div>
     </div>
     <div class='col-sm-2'>
-        <em>Web前端</em>
+        <em>掌握</em>
     </div>
 </div>
 
@@ -61,7 +61,7 @@ permalink: /resume/
         </div>
     </div>
     <div class='col-sm-2'>
-        <em>JavaScript</em>
+        <em>掌握</em>
     </div>
 </div>
 
@@ -75,7 +75,7 @@ permalink: /resume/
         </div>
     </div>
     <div class='col-sm-2'>
-        <em>Jquery</em>
+        <em>掌握</em>
     </div>
 </div>
 
@@ -89,7 +89,7 @@ permalink: /resume/
         </div>
     </div>
     <div class='col-sm-2'>
-        <em>Css</em>
+        <em>掌握</em>
     </div>
 </div>
 
@@ -103,7 +103,7 @@ permalink: /resume/
         </div>
     </div>
     <div class='col-sm-2'>
-        <em>Mongoose</em>
+        <em>掌握</em>
     </div>
 </div>
 
