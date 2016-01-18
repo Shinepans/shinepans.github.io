@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 让我们来更加上手Markdown!
 categories: notes
 ---
