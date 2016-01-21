@@ -4,7 +4,7 @@ title: F&Q
 permalink: /faq/
 ---
 
-F&Q原本写作FAQ ，是Frequently Asked Questions的首字母构成的缩略词。
+这里记录的是平时的一些小总结
 
 **(1) 问:如何获取域名IP?**
 
