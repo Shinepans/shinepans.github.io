@@ -19,7 +19,7 @@ permalink: /resume/
 </p>
 
 <p>
-    <button class='btn btn-default btn-sm'>CSS</button>
+    <button class='btn btn-default btn-sm'>bcrypt</button>
     <button class='btn btn-default btn-sm'>HTML</button>
     <button class='btn btn-default btn-xs'>JavaScript</button>
     <button class='btn btn-default btn-sm'>LESS</button>
