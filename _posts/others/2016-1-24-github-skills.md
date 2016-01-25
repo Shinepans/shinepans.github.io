@@ -42,7 +42,7 @@ notice: 仅个人猜想验证, 此处不建议大家用作其他(比如刷贡献
 todo: 以上的计划若有闲工夫可以实现它.<br />
 
 
-我的github: [https://github.com/Shinepans]
+我的github[github]: (https://github.com/Shinepans)
 
 成功的图形: <br />
 ![这里写图片描述](http://img.blog.csdn.net/20160124115216666)
