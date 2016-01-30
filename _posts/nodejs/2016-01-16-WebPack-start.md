@@ -21,6 +21,7 @@ categories: nodejs
 - 根据你的工程, 你可能有更多的或者更少的需求, webpack被模块化的不仅仅是js, 开发便捷, 能替代部分gulp操作, 如打包, 压缩混淆, 图片转base64 ,扩展性强, 插件机制完善, 特别要说的是支持 React 热插拔的功能. 这就是我所说的核心概念. 下面我所要讲的就是如何使用 WebPack 快速地搭建工作站来处理这些核心概念.
 
 # 开始
+
 ## 安装并且建立webpack , webpack-server
 - 首先需要做的就是同时安装 webpack, webpack-dev-server ,使用npm来安装,:
  - npm使用:
