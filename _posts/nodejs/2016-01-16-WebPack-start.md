@@ -10,14 +10,14 @@ categories: nodejs
 ## 创建一个WebPack
 - 可以通过browserify与gulp来创建一个React JS项目,虽然可能Reacte JS不是你所专注的,但你可以通过这篇文章获得更多的知识
 
-- 用browserify和gulp创建一个React JS 项目时,你需要很多的依赖集, 并且你需要写很多的代码, 你可能很感激gulp给你带来的自由性, 但是它所捆绑的需求使得整体看起来和复杂. 这里, 在使用React JS时,需要知道一些核心概念.
- - SourceMaping
- - 用Common JS 形式来写脚本
- - 转变JSX (Coffe, TypeScript 等)
- - 分离依赖,快速重构
- - 处理样式如 css, sass,less 等
- - 处理图像和字体
- - 使你的代码做好准备
+* 用browserify和gulp创建一个React JS 项目时,你需要很多的依赖集,并且你需要写很多的代码, 你可能很感激gulp给你带来的自由性,但是它所捆绑的需求使得整体看起来和复杂.这里,在使用React JS时,需要知道一些核心概念.
+ * SourceMaping
+ * 用Common JS 形式来写脚本
+ * 转变JSX (Coffe, TypeScript 等)
+ * 分离依赖,快速重构
+ * 处理样式如 css, sass,less 等
+ * 处理图像和字体
+ * 使你的代码做好准备
  
 - 根据你的工程, 你可能有更多的或者更少的需求, webpack被模块化的不仅仅是js, 开发便捷, 能替代部分gulp操作, 如打包, 压缩混淆, 图片转base64 ,扩展性强, 插件机制完善, 特别要说的是支持 React 热插拔的功能. 这就是我所说的核心概念. 下面我所要讲的就是如何使用 WebPack 快速地搭建工作站来处理这些核心概念.
 
