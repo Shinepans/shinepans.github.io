@@ -13,7 +13,7 @@ categories: ReactJs
         <script src="../build/browser.min.js"></script>
     </head>
     <body>
-        <div id="example"></div>
+        <div id="example" style="width:100px;height:20px;background-color:Green;border:dotted 1px Grey;font-size:16px;"></div>
         <script type="text/babel">
             var Timer = React.createClass({
               getInitialState: function() {
