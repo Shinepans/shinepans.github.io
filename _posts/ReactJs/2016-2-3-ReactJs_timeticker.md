@@ -8,9 +8,6 @@ categories: ReactJs
 
 <html>
     <head>
-        <script src="../build/react.js"></script>
-        <script src="../build/react-dom.js"></script>
-        <script src="../build/browser.min.js"></script>
     </head>
     <body>
         <div id="example" style="font-size:16px;"></div>
