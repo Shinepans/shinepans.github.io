@@ -8,9 +8,8 @@ categories: ReactJs
 
 <html>
     <head>
-        <script src="../build/react.js"></script>
-        <script src="../build/react-dom.js"></script>
-        <script src="../build/browser.min.js"></script>
+        <script src="//cdn.bootcss.com/react/0.14.7/react.js"></script>
+        <script src="//cdn.bootcss.com/react/0.14.7/react-dom.js"></script>
     </head>
     <body>
         <div id="ticker" style="font-size:16px;"></div>
@@ -50,7 +49,6 @@ categories: ReactJs
     <head>
         <script src="../build/react.js"></script>
         <script src="../build/react-dom.js"></script>
-        <script src="../build/browser.min.js"></script>
     </head>
     <body>
         <div id="ticker"></div>
@@ -93,7 +91,6 @@ categories: ReactJs
     <head>
         <script src="../build/react.js"></script>
         <script src="../build/react-dom.js"></script>
-        <script src="../build/browser.min.js"></script>
     </head>
     <body>
         <div id="todos"></div>
@@ -146,7 +143,6 @@ categories: ReactJs
     <head>
         <script src="../build/react.js"></script>
         <script src="../build/react-dom.js"></script>
-        <script src="../build/browser.min.js"></script>
     </head>
     <body>
         <div id="todos"></div>
