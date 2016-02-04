@@ -6,7 +6,6 @@ categories: ReactJs
 
 ## 1. 计时器
 
-<!DOCTYPE html>
 <html>
     <head>
         <script src="../build/react.js"></script>
