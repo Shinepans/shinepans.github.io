@@ -13,7 +13,7 @@ categories: ReactJs
         <script src="../build/browser.min.js"></script>
     </head>
     <body>
-        <div id="example" style="width:100px;height:20px;background-color:Green;border:dotted 1px Grey;font-size:16px;"></div>
+        <div id="example" style="font-size:16px;"></div>
         <script type="text/babel">
             var Timer = React.createClass({
               getInitialState: function() {
@@ -65,6 +65,8 @@ categories: ReactJs
               componentDidMount: function() {
                 this.interval = setInterval(this.tick, 1000);
               },
+              //如果不清除计时器, 导致内存泄露,时间是这么长的:
+              //1s,3s,6s,10s,15s,21s,.....
               componentWillUnmount: function() {
                 clearInterval(this.interval);
               },
