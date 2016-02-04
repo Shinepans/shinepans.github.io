@@ -10,7 +10,7 @@ categories: ReactJs
     <head>
     </head>
     <body>
-        <div id="example" style="font-size:16px;"></div>
+        <div id="ticker" style="font-size:16px;"></div>
         <script type="text/babel">
             var Timer = React.createClass({
               getInitialState: function() {
@@ -34,7 +34,7 @@ categories: ReactJs
 
             ReactDOM.render(
                 <Timer />, 
-                document.getElementById('example')
+                document.getElementById('ticker')
             );
 
         </script>
@@ -45,9 +45,12 @@ categories: ReactJs
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="../../build/react.js"></script>
+        <script src="../../build/react-dom.js"></script>
+        <script src="../../build/browser.min.js"></script>
     </head>
     <body>
-        <div id="example"></div>
+        <div id="ticker"></div>
         <script type="text/babel">
             var Timer = React.createClass({
               getInitialState: function() {
@@ -73,7 +76,7 @@ categories: ReactJs
 
             ReactDOM.render(
                 <Timer />, 
-                document.getElementById('example')
+                document.getElementById('ticker')
             );
 
         </script>
@@ -85,12 +88,9 @@ categories: ReactJs
 
 <html>
     <head>
-        <script src="../build/react.js"></script>
-        <script src="../build/react-dom.js"></script>
-        <script src="../build/browser.min.js"></script>
     </head>
     <body>
-        <div id="example"></div>
+        <div id="todos"></div>
         <script type="text/babel">
             var TodoList = React.createClass({
               render: function() {
@@ -128,7 +128,7 @@ categories: ReactJs
             });
             ReactDOM.render(
                 <TodoApp />, 
-                document.getElementById('example')
+                document.getElementById('todos')
             );
 
         </script>
@@ -138,12 +138,12 @@ categories: ReactJs
 ```
 <html>
     <head>
-        <script src="../build/react.js"></script>
-        <script src="../build/react-dom.js"></script>
-        <script src="../build/browser.min.js"></script>
+        <script src="../../build/react.js"></script>
+        <script src="../../build/react-dom.js"></script>
+        <script src="../../build/browser.min.js"></script>
     </head>
     <body>
-        <div id="example"></div>
+        <div id="todos"></div>
         <script type="text/babel">
             var TodoList = React.createClass({
               render: function() {
@@ -181,7 +181,7 @@ categories: ReactJs
             });
             ReactDOM.render(
                 <TodoApp />, 
-                document.getElementById('example')
+                document.getElementById('todos')
             );
 
         </script>
