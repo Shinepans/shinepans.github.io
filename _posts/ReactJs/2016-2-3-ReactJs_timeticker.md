@@ -43,7 +43,7 @@ categories: ReactJs
 
 ```
 <!DOCTYPE html>
-<html>
+<html>  
     <head>
         <script src="../../build/react.js"></script>
         <script src="../../build/react-dom.js"></script>
