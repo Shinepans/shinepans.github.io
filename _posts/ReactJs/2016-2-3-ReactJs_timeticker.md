@@ -195,6 +195,93 @@ categories: ReactJs
 </html>
 ```
 
+## 3. 输入文字监听
+
+<html>
+    <head>
+        <script src="//cdn.bootcss.com/react/0.14.7/react.js"></script>
+        <script src="//cdn.bootcss.com/react/0.14.7/react-dom.js"></script>
+        <script src="../build/browser.min.js"></script>
+    </head>
+    <body>
+        <div id="reactInput"></div>
+        <script type="text/babel">
+            var TodoList = React.createClass({
+              render: function() {
+                var createItem = function(item) {
+                  return <li key={item.id}>{item.text}</li>;
+                };
+                return <ul>{this.props.items.map(createItem)}</ul>;
+              }
+            });
+            var MarkdownEditor = React.createClass({
+              getInitialState: function() {
+                return {value: 'Type some *markdown* here!'};
+              },
+              handleChange: function() {
+                this.setState({value: this.refs.textarea.value});
+              },
+              rawMarkup: function() {
+                return { __html: marked(this.state.value, {sanitize: true}) };
+              },
+              render: function() {
+                return (
+                  <div className="MarkdownEditor">
+                    <h3>Input</h3>
+                    <textarea
+                      onChange={this.handleChange}
+                      ref="textarea"
+                      defaultValue={this.state.value} />
+                    <h3>Output</h3>
+                    <div
+                      className="content"
+                      dangerouslySetInnerHTML={this.rawMarkup()}
+                    />
+                  </div>
+                );
+              }
+            });
+
+            ReactDOM.render(<MarkdownEditor />, reactInput);
+
+
+        </script>
+    </body>
+</html>
+
+```
+var MarkdownEditor = React.createClass({
+  getInitialState: function() {
+    return {value: 'Type some *markdown* here!'};
+  },
+  handleChange: function() {
+    this.setState({value: this.refs.textarea.value});
+  },
+  rawMarkup: function() {
+    return { __html: marked(this.state.value, {sanitize: true}) };
+  },
+  render: function() {
+    return (
+      <div className="MarkdownEditor">
+        <h3>Input</h3>
+        <textarea
+          onChange={this.handleChange}
+          ref="textarea"
+          defaultValue={this.state.value} />
+        <h3>Output</h3>
+        <div
+          className="content"
+          dangerouslySetInnerHTML={this.rawMarkup()}
+        />
+      </div>
+    );
+  }
+});
+
+ReactDOM.render(<MarkdownEditor />, mountNode);
+
+```
+
 by: 潘尚 <br />
 time: 2016.2.4
 
