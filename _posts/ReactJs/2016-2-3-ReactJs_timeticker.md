@@ -206,14 +206,6 @@ categories: ReactJs
     <body>
         <div id="reactInput"></div>
         <script type="text/babel">
-            var TodoList = React.createClass({
-              render: function() {
-                var createItem = function(item) {
-                  return <li key={item.id}>{item.text}</li>;
-                };
-                return <ul>{this.props.items.map(createItem)}</ul>;
-              }
-            });
             var MarkdownEditor = React.createClass({
               getInitialState: function() {
                 return {value: 'Type some *markdown* here!'};
@@ -242,7 +234,10 @@ categories: ReactJs
               }
             });
 
-            ReactDOM.render(<MarkdownEditor />, reactInput);
+            ReactDOM.render(
+                <MarkdownEditor />, 
+                document.getElementById('reactInput')
+            );
 
 
         </script>
