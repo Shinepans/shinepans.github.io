@@ -87,7 +87,6 @@ categories: ReactJs
 </html>
 ```
 
-
 by: 潘尚 <br />
 time: 2016.2.4
 
