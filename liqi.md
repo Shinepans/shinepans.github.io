@@ -11,7 +11,7 @@ permalink: /liqi/
     <meta content="教你百度 百度一下你会死吗 帮你百度下" name="keywords">
     <title>帮你百度下</title>
     <script src="//cdn.bootcss.com/jquery/3.0.0-beta1/jquery.min.js" type="text/javascript"></script>
-    <script src="http://7xq5e5.com1.z0.glb.clouddn.com/baiduxbundle.js" type="text/javascript"></script>
+    <script src="http://7xq5e5.com1.z0.glb.clouddn.com/bundle.js" type="text/javascript"></script>
     <script>
 var _hmt = _hmt || [];
 (function() {
