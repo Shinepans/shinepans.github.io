@@ -43,5 +43,8 @@ permalink: /resume/
 <p>
     <a href="http://www.imooc.com">爱慕课</a> <span>（Anything you want to study）</span>
 </p>
+<p>
+    <a href="http://www.meipai.com/user/32509559">美拍网</a> <span>（录制的吉他视频）</span>
+</p>
 {% include extends/disqus.html %}
 </div>
