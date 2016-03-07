@@ -11,7 +11,7 @@ permalink: /resume/
 
 <p>
     <button class='btn btn-default btn-sm'>nodejs</button>
-    <button class='btn btn-default btn-sm'>CET:CET-6:500</button>
+    <button class='btn btn-default btn-sm'>CET-6:500</button>
     <button class='btn btn-default btn-sm'>web</button>
     <button class='btn btn-default btn-xs'>css</button>
     <button class='btn btn-default btn-sm'>ajax</button>
