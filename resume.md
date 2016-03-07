@@ -19,6 +19,12 @@ permalink: /resume/
     <button class='btn btn-default btn-xs'>jquery</button>
 </p>
 
+<h2>个人凭证：</h2>
+
+<p>
+    
+</p>
+
 <p>
     <button class='btn btn-default btn-sm'>bcrypt</button>
     <button class='btn btn-default btn-sm'>HTML</button>
