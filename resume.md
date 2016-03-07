@@ -7,10 +7,11 @@ permalink: /resume/
 <div class="read">
 
 
-<h2>标签：</h2>
+<h2>个人技能：</h2>
 
 <p>
     <button class='btn btn-default btn-sm'>nodejs</button>
+    <button class='btn btn-default btn-sm'>CET:CET-6:500</button>
     <button class='btn btn-default btn-sm'>web</button>
     <button class='btn btn-default btn-xs'>css</button>
     <button class='btn btn-default btn-sm'>ajax</button>
