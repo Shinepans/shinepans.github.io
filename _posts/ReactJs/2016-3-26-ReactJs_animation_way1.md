@@ -226,10 +226,6 @@ categories: ReactJs
                         RadiusMode: {this.state.RadiusMode}
                         <br />
                         Radius: {this.state.Radius}
-                        <div style={{position:'absolute',left:this.state.X,top:this.state.Y,borderRadius:this.state.Radius,fontSize:18,backgroundColor:this.state.RGBA,width:200,height:200,textAlign: 'center'}}>
-                        </div>
-                        <div style={{position:'absolute',right:this.state.X,bottom:this.state.Y,borderRadius:this.state.Radius,fontSize:18,backgroundColor:this.state.RGBA,width:200,height:200,textAlign: 'center'}}>
-                        </div>
                       </div>
                     );
                   }
