@@ -7,7 +7,7 @@ permalink: /resume/
 <div class="read">
 
 
-<h2>个人技能：</h2>
+<h2>简介标签：</h2>
 
 <p>
     <button class='btn btn-default btn-sm'>nodejs</button>
@@ -17,11 +17,6 @@ permalink: /resume/
     <button class='btn btn-default btn-sm'>ajax</button>
     <button class='btn btn-default btn-xs'>C++</button>
     <button class='btn btn-default btn-xs'>jquery</button>
-</p>
-
-<h2>个人凭证：</h2>
-
-<p>
     
 </p>
 
