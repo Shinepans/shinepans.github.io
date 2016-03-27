@@ -1,7 +1,7 @@
 ---
-layout: page
-title: 电影推荐
-permalink: /liqi/
+layout: post
+title: 观影记录-值得看的电影与简评
+categories: movies
 ---
 
 ## 1.《乌云背后的幸福线》
