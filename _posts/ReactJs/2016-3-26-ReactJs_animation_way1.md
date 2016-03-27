@@ -204,28 +204,6 @@ categories: ReactJs
                   },
                   render: function() {
                     return (
-                      <div >
-                        Seconds Elapsed: {this.state.secondsElapsed}
-                        <br />
-                        Color: {this.state.RGBA}
-                        <br />
-                        Width: {this.state.width}
-                        <br />
-                        Height: {this.state.height}
-                        <br />
-                        X: {this.state.X}
-                        <br />
-                        Y: {this.state.Y}
-                        <br />
-                        Rmode: {this.state.Rmode}
-                        <br />
-                        Gmode: {this.state.Gmode}
-                        <br />
-                        Bmode: {this.state.Bmode}
-                        <br />
-                        RadiusMode: {this.state.RadiusMode}
-                        <br />
-                        Radius: {this.state.Radius}
                         <div style={{position:'absolute',right:this.state.X,bottom:this.state.Y,borderRadius:this.state.Radius,fontSize:18,backgroundColor:this.state.RGBA,width:200,height:200,textAlign: 'center'}}>
                         </div>
                       </div>
