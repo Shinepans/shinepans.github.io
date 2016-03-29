@@ -11,30 +11,30 @@ categories: wechat
       <div class="data-bd">
        <p  class="mb20">接口链接：https://api.mch.weixin.qq.com/mmpaymkttransfers/promotion/transfers</p>
       </div>
-    </div>
-	<div class="data-box with-padding">
+        </div>
+	   <div class="data-box with-padding">
       <div class="data-hd">           
        <h3>是否需要证书 </h3>
       </div>
       <div class="data-bd">           
 	   <p>请求需要双向证书。 详见<a  target="_blank"  href="?chapter=4_3">证书使用</a></p>
       </div>
-    </div>   
-    <div class="data-box with-padding">
+        </div>   
+        <div class="data-box with-padding">
         <div class="data-hd">      
-    <h3>请求参数</h3>
+        <h3>请求参数</h3>
         </div>
         <div class="data-bd">
-    <div  class="table-wrp with-border">
+        <div  class="table-wrp with-border">
       <table  class="table">
         <thead>
       	<tr>
-			<th class="name">字段名</th>
-			<th class="var">变量名</th>
-			<th class="require">必填</th>
-			<th class="type">示例值</th>
-			<th class="example">类型</th>
-		   <th class="description">描述</th>
+            <th class="name">字段名</th>
+            <th class="var">变量名</th>
+            <th class="require">必填</th>
+            <th class="type">示例值</th>
+            <th class="example">类型</th>
+            <th class="description">描述</th>
       	</tr>
       	</thead>
         <tr>
@@ -137,9 +137,9 @@ categories: wechat
           <td>调用接口的机器Ip地址</td>
         </tr>
       </table>
-    </div>
-    <p class="mb10">数据示例： </p>
-    <div class="guide-msg mb10">
+      </div>
+        <p class="mb10">数据示例： </p>
+        <div class="guide-msg mb10">
         <p >&lt;xml&gt; </p>
         <p >&lt;mch_appid&gt;wxe062425f740c30d8&lt;/mch_appid&gt; </p>
         <p >&lt;mchid&gt;10000098&lt;/mchid&gt; </p>
@@ -153,24 +153,24 @@ categories: wechat
         <p >&lt;spbill_create_ip&gt;10.2.3.10&lt;/spbill_create_ip&gt; </p>
         <p >&lt;sign&gt;C97BDBACF37622775366F38B629F45E3&lt;/sign&gt; </p>
         <p >&lt;/xml&gt;</p>
-    </div>
+            </div>
         </div>
-    </div>    
-    <div class="data-box with-padding">
+        </div>    
+        <div class="data-box with-padding">
         <div class="data-hd">      
-    <h3>返回参数</h3>
+            <h3>返回参数</h3>
         </div>
         <div class="data-bd">
-    <div class="table-wrp with-border">
+        <div class="table-wrp with-border">
       <table class="table">
         <thead>
       	<tr>
-			<th class="name">字段名</th>
-			<th class="var">变量名</th>
-			<th class="require">必填</th>
-			<th class="type">示例值</th>
-			<th class="example">类型</th>
-		   <th class="description">描述</th>
+            <th class="name">字段名</th>
+            <th class="var">变量名</th>
+            <th class="require">必填</th>
+            <th class="type">示例值</th>
+            <th class="example">类型</th>
+            <th class="description">描述</th>
       	</tr>
       	</thead>
         <tr>
@@ -192,19 +192,19 @@ categories: wechat
               签名失败 <br />
               参数格式校验错误</td>
         </tr>
-		</table>
+        </table>
        </div>
         <p class="mb10">以下字段在return_code为SUCCESS的时候有返回 </p>
-		<div class="table-wrp with-border">
-		<table  class="table">
-		<thead>
+            <div class="table-wrp with-border"> 
+        <table  class="table">
+        <thead>
       	<tr>
-			<th class="name">字段名</th>
-			<th class="var">变量名</th>
-			<th class="require">必填</th>
-			<th class="type">示例值</th>
-			<th class="example">类型</th>
-		   <th class="description">描述</th>
+            <th class="name">字段名</th>
+            <th class="var">变量名</th>
+            <th class="require">必填</th>
+            <th class="type">示例值</th>
+            <th class="example">类型</th>
+            <th class="description">描述</th>
       	</tr>
       	</thead>
         <tr>
@@ -263,7 +263,7 @@ categories: wechat
           <td>String(128)</td>
           <td>结果信息描述</td>
         </tr>
-		</table>
+	      </table>
        </div>
          <p class="mb10">以下字段在return_code&nbsp;和result_code都为SUCCESS的时候有返回 </p>
 		 <div class="table-wrp with-border">
@@ -302,9 +302,9 @@ categories: wechat
           <td>企业付款成功时间</td>
         </tr>
       </table>
-    </div>
-    <p class="mb10">成功示例： </p>
-    <div class="guide-msg mb10">
+        </div>
+        <p class="mb10">成功示例： </p>
+        <div class="guide-msg mb10">
           <p >&lt;xml&gt; </p>
           <p >&#9;&lt;return_code&gt;&lt;![CDATA[SUCCESS]]&gt;&lt;/return_code&gt; </p>
           <p >&#9;&lt;return_msg&gt;&lt;![CDATA[]]&gt;&lt;/return_msg&gt; </p>
@@ -318,8 +318,8 @@ categories: wechat
           <p >&#9;&lt;payment_time&gt;&lt;![CDATA[2015-05-19&nbsp;15：26：59]]&gt;&lt;/payment_time&gt; </p>
           <p >&lt;/xml&gt;</p>
      </div>
-    <p  class="mb10">错误示例： </p>
-    <div class="guide-msg mb10">
+        <p  class="mb10">错误示例： </p>
+        <div class="guide-msg mb10">
         <p>&lt;xml&gt; </p>
         <p >&#9;&lt;return_code&gt;&lt;![CDATA[FAIL]]&gt;&lt;/return_code&gt; </p>
         <p >&#9;&lt;return_msg&gt;&lt;![CDATA[系统繁忙,请稍后再试.]]&gt;&lt;/return_msg&gt; </p>
@@ -327,15 +327,15 @@ categories: wechat
         <p >&#9;&lt;err_code&gt;&lt;![CDATA[SYSTEMERROR]]&gt;&lt;/err_code&gt; </p>
         <p >&#9;&lt;err_code_des&gt;&lt;![CDATA[系统繁忙,请稍后再试.]]&gt;&lt;/err_code_des&gt; </p>
         <p >&lt;/xml&gt;</p>
-    </div>
         </div>
-    </div>    
-    <div class="data-box with-padding">
+        </div>
+        </div>    
+        <div class="data-box with-padding">
         <div class="data-hd">      
-	<h3>错误码</h3>
+	   <h3>错误码</h3>
         </div>
         <div class="data-bd">
-    <div  class="table-wrp with-border">
+        <div  class="table-wrp with-border">
       <table class="table">
       <tr>
         <th>错误代码</th>
@@ -420,8 +420,8 @@ categories: wechat
         </ol>
         </td>
       </tr>
-    </table>
-	</div>
+        </table>
+	   </div>
   </div>
   </div>
 </div>
