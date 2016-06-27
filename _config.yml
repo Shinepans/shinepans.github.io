@@ -9,7 +9,7 @@ permalink: /:year:month:day.html
 
 # Build settings
 highlighter: rouge
-markdown: kramdown  # [ maruku | rdiscount | kramdown | redcarpet ]
+markdown: maruku  # [ maruku | rdiscount | kramdown | redcarpet ]
 
 kramdown:
   input:          GFM
