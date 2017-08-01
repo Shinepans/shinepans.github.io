@@ -4,6 +4,8 @@ title: TensorFlow【深度学习】安装Tensorflow与测试
 categories: DeepLearning
 ---
 
+> 推荐使用 清华大学镜像与资源包，(请点我参考)[https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/]
+
 ## 安装过程
 
 > 当前使用的安装方式是 anaconda, 当然也可以使用native pip方法, 参见官网: https://www.tensorflow.org/install/install_windows
