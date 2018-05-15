@@ -55,7 +55,7 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 
 **Answer** Open mysql admin, Then open wordpress's database, change the options of siteurl
 
-**（4）Pip3 Use Better Network in China **
+**（4）Pip3 Use Better Network in China**
 
 **Answer:** 
 
