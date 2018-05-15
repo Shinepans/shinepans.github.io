@@ -51,9 +51,9 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 ------ END LICENSE ------
 ```
 
-** (3) To set up other members of the LAN to be accessible in wordpress **
+**(3) To set up other members of the LAN to be accessible in wordpress **
 
-** Answer ** Open mysql admin, Then open wordpress's database, change the options of siteurl
+**Answer** Open mysql admin, Then open wordpress's database, change the options of siteurl
 
 
 
