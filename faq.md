@@ -55,6 +55,22 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 
 **Answer** Open mysql admin, Then open wordpress's database, change the options of siteurl
 
+**（4）Pip3 Use Better Network in China **
+
+**Answer:** All: 
+
+```
+[global]
+timeout = 6000
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+trusted-host = pypi.tuna.tsinghua.edu.cn
+```
+
+One: 
+
+```
+pip3 install ... --index-url="https://pypi.tuna.tsinghua.edu.cn/simple"
+```
 
 
 
