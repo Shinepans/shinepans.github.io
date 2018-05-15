@@ -57,7 +57,9 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 
 **（4）Pip3 Use Better Network in China **
 
-**Answer:** All: 
+**Answer:** 
+
+All: Open %appdata%, create the **pip** folder, create **pip.ini** flie, and add the below codes
 
 ```
 [global]
