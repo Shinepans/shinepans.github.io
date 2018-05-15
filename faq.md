@@ -4,11 +4,11 @@ title: F&Q
 permalink: /faq/
 ---
 
-这里记录的是平时的一些小总结
+There is the place I record some notes
 
-**(1) 问:如何获取域名IP?**
+**(1) To get a site's IP**
 
-**答:**  terminal win:
+**Answer:**  terminal windows:
 
 ```shell
 nslookup xxx
@@ -19,9 +19,9 @@ mac
 dig xxx
 ```
 
-**(2) 问:如何破解sublime?**
+**(2) sublime license**
 
-**答：**  输入 license :
+**Answer**  input license :
 
 ```shell
 ----- BEGIN LICENSE -----
@@ -51,23 +51,9 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 ------ END LICENSE ------
 ```
 
-**(3) 问:如何在管理用户时,如果用户要删除某个东西,这个东西很重要,你需要他很确定而不是随意的删除?**
+** (3) To set up other members of the LAN to be accessible in wordpress **
 
-**答:**  可以通过dom操作, 在之前的工作中, 我觉得页内操作而不是跳页可以给用户一种很好的体验, 而之前的什么弹窗或者模态框什么的提示或许不能阻止用户随意删除, 我们可以在用户点击删除按钮时, 把其他的dom都隐藏,然后给出很简单的提示: 要删除请输入要删除的内容的名字, 如果用户输对了, 那就删除, 当然, 删除也应该用ajax去完成, 返回成功那么就可以把相对应的行数据删除了.使用 $('#xxx > ').remove() 或者等等...
-
-**(4) 问:Node.js从后端传输局给前端, Jade 如何获取这些数据?**
-
-**答:**  Jade是我目前用过最舒服的模板引擎, 我觉得这个很适合有强迫症的人使用, 因为没有了那些烦人的标签标记, 取而代之的是严格的缩进, 这个对于团队风格的一致是极好的. 控制器写好后, 可以在渲染视图时, 给视图传去一些参数, 比如对象数组, 字符串等, 都是可以的, 然后在前端, 我们可以使用 #{xxx} 来取这个值. 如果我们需要在前端的js中调用这个值, 我们还可以把这个值预先读出来, 然后用input#xxx(style="display:none")的方式把值保存在里面, 当我们在js中需要使用这个值时,可以直接 var xxx = $('#xxx').val(); 这个是非常方便的
-
-**(5) 问:mongoose如何通过objectid查找数据?**
-
-**答:**  今天的工作中(1-21)发现如果直接用 .findOne({_id: 'xxx'})查找是没有结果的, 然后又换了一种办法, 先转成ObjectId类型,然后再查找, 结果还是没有查找结果, 最后使用了最简单的 findById 居然直接查找出来了, 看来mongoose 不吃前面的两种方式啊...
-
-**(6) 问:下次更新?**
-
-**答:**  本次更新:16-1-21, 下次再见 ~
-
-
+** Answer ** Open mysql admin, Then open wordpress's database, change the options of siteurl
 
 
 
