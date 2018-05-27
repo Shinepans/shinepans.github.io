@@ -1,3 +1,9 @@
+---
+layout: post
+title:[sklearn Starter]
+categories: DeepLearning
+---
+
 ## 机器学习-问题设置
 
 通常，学习问题会考虑一组n 个数据样本，然后尝试预测未知数据的属性。如果每个样本不止一个数字，例如多维条目（也称为多元数据），则称其具有多个属性或特征。
