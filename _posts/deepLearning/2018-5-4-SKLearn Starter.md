@@ -1,6 +1,6 @@
 ---
 layout: post
-title:SKlearn-Starter
+title: SKlearn-Starter
 categories: DeepLearning
 ---
 
