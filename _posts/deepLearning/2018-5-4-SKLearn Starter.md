@@ -153,7 +153,9 @@ array([0])
 
 稍后，您可以使用以下方式加载pickled模型（可以在另一个Python进程中）：
 
+```
 >>> clf = joblib.load('filename.pkl') 
+```
 
 **注意: joblib.dump和joblib.load函数也接受文件类对象而不是文件名。**
 
