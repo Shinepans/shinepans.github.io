@@ -59,7 +59,7 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 
 **Answer:** 
 
-All: Open %appdata%, create the **pip** folder, create **pip.ini** flie, and add the below codes
+All: Open %users/USERNAME/%, create the **pip** folder, and then create **pip.ini** flie in pip folder, and add the below codes
 
 ```
 [global]
@@ -71,11 +71,54 @@ trusted-host = pypi.tuna.tsinghua.edu.cn
 One: 
 
 ```
-pip3 install ... --index-url="https://pypi.tuna.tsinghua.edu.cn/simple"
+pip install ... --index-url="https://pypi.tuna.tsinghua.edu.cn/simple"
 ```
 
+**(5) Npm Use Taobao sources to speed up download speed** 
 
+```
+# use always:
+npm config set registry https://registry.npm.taobao.org
+```
 
+or use temp：
 
+```
+# use Temp
+npm --registry https://registry.npm.taobao.org install SOMETHING
+```
 
+use 
+
+```
+npm config get registry
+```
+
+to TEST registry
+
+use 
+
+```
+npm info node-gyp
+```
+
+to GET package infos
+
+**(6)Windows 10 LTSB**
+
+> It is a good version in win 10, only update safe modules, not install kernel often (Just one year or two year / update)
+
+It can download at itellyou and activate by autokms
+
+**(7)Intall Node-gyp**
+
+```
+npm install -g node-gyp
+```
+
+then 
+
+```
+npm install --global --production windows-build-tools
+```
 
