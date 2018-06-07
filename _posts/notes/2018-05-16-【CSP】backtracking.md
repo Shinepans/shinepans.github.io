@@ -6,7 +6,7 @@ categories: notes
 
 ## Backtracking Search
 
-![img](./backtracking.png)
+![img](http://7xq5e8.com1.z0.glb.clouddn.com/20180516/backtracking.png)
 
 ## Question
 
