@@ -271,3 +271,47 @@ footer p {
   border-color: #3e3e3e;
 }
 
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    font-weight: 700;
+    background-color: #d9edf7;
+}
+
+tr td, tr th {
+    font-size: 14px;
+    color: #4f4f4f;
+    line-height: 22px;
+    border: 1px solid #DDD;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    word-break: normal;
+    vertical-align: middle;
+}
+
+table tr {
+    border: 0;
+    border-top: 1px solid #DDD;
+    background-color: #fff;
+}
+
